@@ -2,11 +2,7 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-//Complete the following function.
-
-
 void calculate_the_maximum(int n, int k) {
-  //Write your code here.
   int max_and =0, max_or=0, max_xor=0,and, or, xor, i, j;
   
   for (i = 1; i < n; i++)
